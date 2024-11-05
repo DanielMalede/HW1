@@ -5,9 +5,10 @@ public class PrintTo5 {
 		// Declares an int variable, and sets it to 1
         int i = 0;
         // Complete the program's code here:
-        while (i<5) {
+        while (i<6) {
+            System.out.println(i); 
             i = i + 1;
         }
-        System.out.println(i); // Prints the value of i, which should be 6.
+
     }
 }
