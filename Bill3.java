@@ -13,4 +13,5 @@ public class Bill3 {
 
 		System.out.println("Dear " + name1 + ", " + name2 + ", " + name3 + ": pay " + billingSplit + " Shekels each.");
 	}
+	
 }
