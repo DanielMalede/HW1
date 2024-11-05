@@ -1,0 +1,304 @@
+{
+  "tests": [
+    {
+      "name": "Bill3 test 1: Args (a, b, c, 239)",
+      "setup": "javac Bill3.java",
+      "run": "java Bill3 a b c 239",
+      "input": "",
+      "output": "Dear c, b, and a: pay 80.0 Shekels each",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Bill3 test 2: Args (Dan, Moti, Itay, 300)",
+      "setup": "javac Bill3.java",
+      "run": "java Bill3 Dan Moti Itay 300",
+      "input": "",
+      "output": "Dear Itay, Moti, and Dan: pay 100.0 Shekels each",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Bill3 test 3: Args (Noa, Maya, Rachel, 7)",
+      "setup": "javac Bill3.java",
+      "run": "java Bill3 Noa Maya Rachel 7",
+      "input": "",
+      "output": "Dear Rachel, Maya, and Noa: pay 3.0 Shekels each",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Bill3 test 4: Args (Monica, Chandler, Ross, 500)",
+      "setup": "javac Bill3.java",
+      "run": "java Bill3 Monica Chandler Ross 500",
+      "input": "",
+      "output": "Dear Ross, Chandler, and Monica: pay 167.0 Shekels each",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Bill3 test 5: Args (a, b, c, 1000)",
+      "setup": "javac Bill3.java",
+      "run": "java Bill3 a b c 1000",
+      "input": "",
+      "output": "Dear c, b, and a: pay 334.0 Shekels each",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "FVCalc test 1: Args (100, 10, 2)",
+      "setup": "javac FVCalc.java",
+      "run": "java FVCalc 100 10 2",
+      "input": "",
+      "output": "After 2 years, a $100 saved at 10.0% will yield $121",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "FVCalc test 2: Args (250000, 6, 25)",
+      "setup": "javac FVCalc.java",
+      "run": "java FVCalc 250000 6 25",
+      "input": "",
+      "output": "After 25 years, a $250000 saved at 6.0% will yield $1072967",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "FVCalc test 3: Args (210, 5, 30)",
+      "setup": "javac FVCalc.java",
+      "run": "java FVCalc 210 5 30",
+      "input": "",
+      "output": "After 30 years, a $210 saved at 5.0% will yield $907",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "FVCalc test 4: Args (450, 12.5, 4)",
+      "setup": "javac FVCalc.java",
+      "run": "java FVCalc 450 12.5 4",
+      "input": "",
+      "output": "After 4 years, a $450 saved at 12.5% will yield $720",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "FVCalc test 5: Args (100, 5, 20)",
+      "setup": "javac FVCalc.java",
+      "run": "java FVCalc 100 5 20",
+      "input": "",
+      "output": "After 20 years, a $100 saved at 5.0% will yield $265",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "NumWords test 1: Args (123)",
+      "setup": "javac NumWords.java",
+      "run": "java NumWords 123",
+      "input": "",
+      "output": "1 hundreds, 2 tens, and 3 ones.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "NumWords test 2: Args (35)",
+      "setup": "javac NumWords.java",
+      "run": "java NumWords 35",
+      "input": "",
+      "output": "0 hundreds, 3 tens, and 5 ones.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "NumWords test 3: Args (100)",
+      "setup": "javac NumWords.java",
+      "run": "java NumWords 100",
+      "input": "",
+      "output": "1 hundreds, 0 tens, and 0 ones.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "NumWords test 4: Args (999)",
+      "setup": "javac NumWords.java",
+      "run": "java NumWords 999",
+      "input": "",
+      "output": "9 hundreds, 9 tens, and 9 ones.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "NumWords test 5: Args (0)",
+      "setup": "javac NumWords.java",
+      "run": "java NumWords 0",
+      "input": "",
+      "output": "0 hundreds, 0 tens, and 0 ones.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "NumWords test 6: Args (80)",
+      "setup": "javac NumWords.java",
+      "run": "java NumWords 80",
+      "input": "",
+      "output": "0 hundreds, 8 tens, and 0 ones.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "NumWords test 7: Args (2)",
+      "setup": "javac NumWords.java",
+      "run": "java NumWords 2",
+      "input": "",
+      "output": "0 hundreds, 0 tens, and 2 ones.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "NumWords test 8: Args (404)",
+      "setup": "javac NumWords.java",
+      "run": "java NumWords 404",
+      "input": "",
+      "output": "4 hundreds, 0 tens, and 4 ones.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "NumWords test 9: Args (110)",
+      "setup": "javac NumWords.java",
+      "run": "java NumWords 110",
+      "input": "",
+      "output": "1 hundreds, 1 tens, and 0 ones.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "NumWords test 10: Args (2024)",
+      "setup": "javac NumWords.java",
+      "run": "java NumWords 2024",
+      "input": "",
+      "output": "20 hundreds, 2 tens, and 4 ones.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TimeFormat test 1: Args (10:15)",
+      "setup": "javac TimeFormat.java",
+      "run": "java TimeFormat 10:15",
+      "input": "",
+      "output": "10:15 AM",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "TimeFormat test 2: Args (12:03)",
+      "setup": "javac TimeFormat.java",
+      "run": "java TimeFormat 12:03",
+      "input": "",
+      "output": "12:03 PM",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "TimeFormat test 3: Args (23:59)",
+      "setup": "javac TimeFormat.java",
+      "run": "java TimeFormat 23:59",
+      "input": "",
+      "output": "11:59 PM",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "TimeFormat test 4: Args (00:00)",
+      "setup": "javac TimeFormat.java",
+      "run": "java TimeFormat 00:00",
+      "input": "",
+      "output": "0:00 AM",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "TimeFormat test 5: Args (01:01)",
+      "setup": "javac TimeFormat.java",
+      "run": "java TimeFormat 01:01",
+      "input": "",
+      "output": "1:01 AM",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "TimeFormat test 6: Args (13:13)",
+      "setup": "javac TimeFormat.java",
+      "run": "java TimeFormat 13:13",
+      "input": "",
+      "output": "1:13 PM",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "TimeFormat test 7: Args (15:30)",
+      "setup": "javac TimeFormat.java",
+      "run": "java TimeFormat 15:30",
+      "input": "",
+      "output": "3:30 PM",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "TimeFormat test 8: Args (09:00)",
+      "setup": "javac TimeFormat.java",
+      "run": "java TimeFormat 09:00",
+      "input": "",
+      "output": "9:00 AM",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "TimeFormat test 9: Args (18:45)",
+      "setup": "javac TimeFormat.java",
+      "run": "java TimeFormat 18:45",
+      "input": "",
+      "output": "6:45 PM",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "TimeFormat test 10: Args (20:20)",
+      "setup": "javac TimeFormat.java",
+      "run": "java TimeFormat 20:20",
+      "input": "",
+      "output": "8:20 PM",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
