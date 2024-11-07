@@ -11,6 +11,6 @@ public class Bill3 {
 
 		Double billingSplit = bill / 3;
 		billingSplit = Math.ceil(billingSplit);
-		System.out.println("Dear " + name3 + ", " + name2 + ", " + name1 + ": pay " + billingSplit + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + billingSplit + " Shekels each.");
 	}
 }
