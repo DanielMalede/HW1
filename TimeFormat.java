@@ -17,7 +17,7 @@ public class TimeFormat {
 		String amPm = hours < 12 ? "AM" : "PM";
 		int zero = 0;
 
-		if (hours >= 12) {
+		if (hours > 12) {
 			hours -= 12;
 			if (minutes <= 9) {
 				System.out.println(hours + ":" + zero + minutes + " " + amPm);
@@ -30,6 +30,9 @@ public class TimeFormat {
 				return;
 			}
 		}
-		System.out.println(hours + ":" + minutes + " " + amPm);
+		if (minutes <= 9) {
+			System.out.println(hours + ":" + zero + minutes + " " + amPm);
+			return;
+		}
 	}
 }
