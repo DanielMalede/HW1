@@ -28,7 +28,7 @@ public class NumWords {
 		if (number.length() == 1) {
 			{
 				System.out
-						.println("0 hundreds, " + "0 tens, " + " and " + number.charAt(0) + "ones.");
+						.println("0 hundreds, " + "0 tens, " + " and " + number.charAt(0) + " ones.");
 				return;
 			}
 		}
