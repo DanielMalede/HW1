@@ -3,6 +3,13 @@ public class NumWords {
 	public static void main(String args[]) {
 		// Replace this comment with your code
 		String number = args[0];
+		if (number.length() == 4) {
+			{
+				System.out.println(number.charAt(0)+number.charAt(1) + " hundreds, " + number.charAt(2) + " tens, " + "and "
+						+ number.charAt(3) + " ones.");
+				return;
+			}
+		}
 		if (number.length() == 3) {
 			{
 				System.out.println(number.charAt(0) + " hundreds, " + number.charAt(1) + " tens, " + "and "
@@ -21,7 +28,7 @@ public class NumWords {
 		if (number.length() == 1) {
 			{
 				System.out
-						.println("0 hundreds, " + "0 tens, " + number.charAt(0) + " and " + "ones.");
+						.println("0 hundreds, " + "0 tens, " + " and " + number.charAt(0) + "ones.");
 				return;
 			}
 		}
