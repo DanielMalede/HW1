@@ -13,7 +13,7 @@ public class TimeFormat {
 		// Does the same with the minutes part of the input.
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
 		// Replace this comment with the rest of your code
-		
+
 		String amPm = hours < 12 ? "AM" : "PM";
 		int zero = 0;
 
@@ -22,20 +22,14 @@ public class TimeFormat {
 			if (minutes <= 9) {
 				System.out.println(hours + ":" + zero + minutes + " " + amPm);
 				return;
-			} else {
-				System.out.println(hours + ":" + minutes + " " + amPm);
-				return;
 			}
 		}
 		if (hours < 12) {
 			if (minutes <= 9) {
 				System.out.println(hours + ":" + zero + minutes + " " + amPm);
 				return;
-
-			} else {
-				System.out.println(hours + ":" + minutes + " " + amPm);
-				return;
 			}
 		}
+		System.out.println(hours + ":" + minutes + " " + amPm);
 	}
 }
