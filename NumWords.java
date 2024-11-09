@@ -5,8 +5,9 @@ public class NumWords {
 		String number = args[0];
 		if (number.length() == 4) {
 			{
-				System.out.println(number.charAt(0)+number.charAt(1) + " hundreds, " + number.charAt(2) + " tens, " + "and "
-						+ number.charAt(3) + " ones.");
+				System.out.println(
+						number.charAt(0) + number.charAt(1) + " hundreds, " + number.charAt(2) + " tens, " + "and "
+								+ number.charAt(3) + " ones.");
 				return;
 			}
 		}
