@@ -9,10 +9,9 @@ public class FVCalc {
 				* Math.pow(1 + Double.parseDouble(rate) / 100, Integer.parseInt(years)));
 		double doublenumber = Double.parseDouble(result);
 		int intNumber = (int) Math.floor(doublenumber);
-		String division = "" + Double.parseDouble(currentValue) / Double.parseDouble(rate);
 		if (args != null) {
 			System.out.println(
-					"After " + years + " years, " + currentValue + " saved at " + division + "%" + " will yield $"
+					"After " + years + " years, " + currentValue + " saved at " + rate + ".0%" + " will yield $"
 							+ intNumber);
 		}
 	}
