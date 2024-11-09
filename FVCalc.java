@@ -8,11 +8,11 @@ public class FVCalc {
 		String result = "" + (Double.parseDouble(currentValue)
 				* Math.pow(1 + Double.parseDouble(rate) / 100, Integer.parseInt(years)));
 		double doubleNumber = Double.parseDouble(result);
-		int intNumber = (int) Math.floor(doubleNumber);
+		double roundedNumber =Math.round(doubleNumber);
 		if (args != null) {
 			System.out.println(
-					"After " + years + " years, a $" + currentValue + " saved at " + rate + ".0%" + " will yield $"
-							+ intNumber);
+					"After " + years + " years, a $" + currentValue + " saved at " + rate + "%" + " will yield $"
+							+ roundedNumber);
 		}
 	}
 }
