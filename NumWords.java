@@ -6,7 +6,7 @@ public class NumWords {
 		if (number.length() == 4) {
 			{
 				System.out.println(
-						number.charAt(0) + number.charAt(1) + " hundreds, " + number.charAt(2) + " tens, " + "and "
+						number.charAt(0) + "" + number.charAt(1) + " hundreds, " + number.charAt(2) + " tens, " + "and "
 								+ number.charAt(3) + " ones.");
 				return;
 			}
@@ -29,10 +29,9 @@ public class NumWords {
 		if (number.length() == 1) {
 			{
 				System.out
-						.println("0 hundreds, " + "0 tens, " + " and " + number.charAt(0) + " ones.");
+						.println("0 hundreds, " + "0 tens, " + "and " + number.charAt(0) + " ones.");
 				return;
 			}
 		}
-		System.out.println("Please enter a valid number between 1 and 999.");
 	}
 }
