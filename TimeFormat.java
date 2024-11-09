@@ -24,15 +24,14 @@ public class TimeFormat {
 				return;
 			}
 		}
-		if (hours < 12) {
+		if (hours <= 12) {
 			if (minutes <= 9) {
 				System.out.println(hours + ":" + zero + minutes + " " + amPm);
 				return;
+			} else {
+				System.out.println(hours + ":" + minutes + " " + amPm);
+				return;
 			}
-		}
-		if (minutes <= 9) {
-			System.out.println(hours + ":" + zero + minutes + " " + amPm);
-			return;
 		}
 	}
 }
