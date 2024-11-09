@@ -33,5 +33,12 @@ public class NumWords {
 				return;
 			}
 		}
+		if (number.length() == 0) {
+			{
+				System.out
+						.println("0 hundreds, " + "0 tens, " + "and " + "0 ones.");
+				return;
+			}
+		}
 	}
 }
