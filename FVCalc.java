@@ -11,7 +11,7 @@ public class FVCalc {
 		int intNumber = (int) Math.floor(doublenumber);
 		if (args != null) {
 			System.out.println(
-					"After " + years + " years, " + currentValue + " saved at " + rate + ".0%" + " will yield $"
+					"After " + years + " years, a " + currentValue + " saved at " + rate + ".0%" + " will yield $"
 							+ intNumber);
 		}
 	}
