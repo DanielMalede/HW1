@@ -13,7 +13,7 @@ public class FVCalc {
 		if (args != null) {
 			System.out.println(
 					"After " + years + " years, a $" + currentValue + " saved at " + rate + "%" + " will yield $"
-							+ roundedNumber);
+							+ finalResult);
 		}
 	}
 }
