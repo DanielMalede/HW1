@@ -14,7 +14,7 @@ public class TimeFormat {
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
 		// Replace this comment with the rest of your code
 
-		String amPm = hours <= 12 ? "AM" : "PM";
+		String amPm = hours <= 11 ? "AM" : "PM";
 		int zero = 0;
 
 		if (hours > 12) {
